@@ -1,0 +1,6 @@
+framework module Patterns {
+  umbrella header "Patterns-umbrella.h"
+
+  export *
+  module * { export * }
+}

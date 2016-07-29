@@ -1,0 +1,17 @@
+PODS:
+  - ObjectMapper (0.19)
+  - Patterns (0.0.1):
+    - ObjectMapper (= 0.19)
+
+DEPENDENCIES:
+  - Patterns (from `~/Dropbox/Code/Patterns/Patterns`)
+
+EXTERNAL SOURCES:
+  Patterns:
+    :path: ~/Dropbox/Code/Patterns/Patterns
+
+SPEC CHECKSUMS:
+  ObjectMapper: a88114e5df20f055da63029f25cbc01014847c91
+  Patterns: 74c01155ff8c5315f521efe27d8b6a6adb3eea8d
+
+COCOAPODS: 0.39.0
