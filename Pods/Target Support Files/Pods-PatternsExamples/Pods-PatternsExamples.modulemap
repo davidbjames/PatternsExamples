@@ -1,0 +1,6 @@
+framework module Pods_PatternsExamples {
+  umbrella header "Pods-PatternsExamples-umbrella.h"
+
+  export *
+  module * { export * }
+}

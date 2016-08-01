@@ -1,6 +1,12 @@
-platform :ios, '8.0' 
+platform :ios, '9.0' 
 
 use_frameworks!
 
-pod 'Patterns', :path => '~/Dropbox/Code/Patterns/Patterns'
+source 'https://github.com/davidbjames/CocoaPods-Specs.git'
+
+target 'PatternsExamples' do
+    pod 'Patterns'
+end
+
+# pod 'Patterns', :path => '~/Dropbox/Code/Patterns/Patterns'
 # pod 'ObjectMapper', '~> 0.19'
