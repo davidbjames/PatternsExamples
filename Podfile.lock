@@ -1,6 +1,6 @@
 PODS:
   - ObjectMapper (1.3.0)
-  - Patterns (0.1.0)
+  - Patterns (0.1.1)
 
 DEPENDENCIES:
   - ObjectMapper (~> 1.3)
@@ -8,7 +8,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   ObjectMapper: 4eb08a726e9791a93b2632049951b56a7c17e471
-  Patterns: c7dcc1fa7b3ebdca21918011429dff00b52fdc3b
+  Patterns: 18af3fd3adc7cc0d12bcf309513eb5d842ac7236
 
 PODFILE CHECKSUM: 56a7126b84196c69ecf0044cedd711837568f10b
 

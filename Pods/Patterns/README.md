@@ -6,20 +6,31 @@ Patterns Project
 What is it?
 -----------
 
-The Patterns Project is a repository of *pattern protocols*. (This is a Swift project, but could easily be ported to any language.)
+The Patterns Project is a repository of *pattern protocols*, written in Swift.
 
-*Pattern protocols* are interfaces that describe the semantics of design patterns. 
-
-**The Patterns Project is aimed at helping developers learn and use design patterns by simply conforming to protocols**. 
+*Pattern protocols* are interfaces that describe the semantics of design patterns. The aim is to help developers learn and use design patterns by simply conforming to protocols.
 
 Why do this?
 ------------
 
-In most cases, design patterns are implicitly defined in code with no semantics describing the pattern itself, making it hard to know what pattern is being used or even if a pattern is being used at all! This is not helpful for communicating intent in programs, and has been the main blocker to learning design patterns for decades. 
+In most cases, design patterns are implicitly defined in code with no semantics describing the pattern itself, making it hard to know what pattern is being used or even if a pattern is being used at all. This is not helpful for communicating intent in programs, and has been the main blocker to learning design patterns for decades. 
 
-The Patterns Project is all about overcoming this communication gap by simply **making design patterns explicitly named in code** via pattern protocols. 
+The Patterns Project is all about overcoming this communication gap by simply calling attention to the pattern by making it a protocol. 
 
 Instead of design patterns remaining obscure, they become obvious, to implementers and maintainers. 
+
+Scope
+-----
+
+Design patterns in software started with the original [Gang of Four patterns](https://en.wikipedia.org/wiki/Design_Patterns) later expanded to include others. [See here for the full list.](https://en.wikipedia.org/wiki/Software_design_pattern#Classification_and_list) The goal of Patterns Project is to cover most of these patterns, with the one caveat, that they be updated in light of modern programming practices and emerging paradigms, including functional, reactive, value-oriented and others. 
+
+In addition to the "original" patterns, the Patterns Project will also become the home of new patterns as they are discovered. The project is open source in the fullest sense. We want it to be the new *Patterns Repository* for Swift. 
+
+As Swift grows into other platforms, the Patterns Project should also grow to represent patterns appropriate for those platforms.
+
+***
+
+Ok. Enough rationale. Let's dig in to the protocols.
 
 Examples
 --------
@@ -330,6 +341,8 @@ Add these lines to your Podfile:
 ~~~Ruby
 source 'https://github.com/davidbjames/CocoaPods-Specs.git'
 ~~~
+
+Note: until this is out of Alpha stage, I'll use my private spec repo, which means you will also need to source the [CocoaPods spec repo](https://github.com/CocoaPods/Specs) in your Podfile, in order for other dependencies to load. Sorry, for now.
 
 ~~~Ruby
 pod 'Patterns'
