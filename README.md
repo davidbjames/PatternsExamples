@@ -3,9 +3,9 @@
 Patterns Examples
 =================
 
-Swift Playgrounds with working examples for each pattern in the [Patterns Project](https://github.com/davidbjames/Patterns). Examples are broken down into simple or complex implementations, including documentation.
+Working examples for each pattern in the [Patterns Project](https://github.com/davidbjames/Patterns).
 
-> The Examples project was originally developed so I could "prove" each pattern in a practical and workable context. Many of the decisions for how a pattern should be represented were shaped by how useful the pattern was in concrete running examples. Ultimately, the best "example" is real life, and I hope that will better define the practical use of these patterns.
+> The Examples project was originally developed so I could "prove" each pattern in a practical and workable context. Many of the decisions for how a pattern should be represented were shaped by how useful the pattern was in concrete running examples. Ultimately, the best "example" is real life, and I hope that will better define the practical use of these patterns in the future.
 > – David James
 
 Creational Patterns
